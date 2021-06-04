@@ -7,12 +7,12 @@ export default function Overview() {
     "React / Redux",
     "Node.js / Javascript",
     "CSS / Sass",
-    "Shopify Liquid",
     "MongoDb / Firebase",
+    "Shopify Liquid",
     "Express.js / Koa",
-    "Mobile First Developement",
     "Visual Basic for Applications",
     "Photoshop",
+    "Mobile First Developement",
   ];
 
   return (
@@ -50,14 +50,14 @@ export default function Overview() {
               </div>
             </div>
           </div>
-          <div className={styles.cardfooter}>
-            <a href="https://github.com/Tepeup">
+          <a href="https://github.com/Tepeup">
+            <div className={styles.cardfooter}>
               <div className={styles.footerlink}>
                 <i className="fa fa-github"></i>
                 <p>https://github.com/Tepeup</p>
               </div>
-            </a>
-          </div>
+            </div>{" "}
+          </a>
         </div>
         <div className={styles.skillscard}>
           <div className={styles.skillstitle}>

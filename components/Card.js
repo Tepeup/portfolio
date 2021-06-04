@@ -30,20 +30,19 @@ export default function Card(props) {
             );
           })}
         </div>
-      </div>
-      <div className={styles.cardfooter}>
-        <a href={`${props.gitlink}`}>
+      </div>{" "}
+      <a href={`${props.gitlink}`}>
+        <div className={styles.cardfooter}>
           <div className={styles.footerlink}>
             <i className="fa fa-github"></i>
             <p>{`${props.gitname}`}</p>
           </div>
-        </a>
-        <a href={`${props.gitlink}`}>
+
           <button className={`${styles.button} ${styles.secondary}`}>
             Code
           </button>
-        </a>
-      </div>
+        </div>{" "}
+      </a>
     </div>
   );
 }
