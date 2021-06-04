@@ -321,7 +321,6 @@ opacity: .5;
  width: 100%;
  padding: 1.5rem;
  max-width: 1000px;
-
  display: flex;
 justify-content: space-between;
  align-items: center;
@@ -427,6 +426,11 @@ justify-content: space-between;
 
 @media (max-width: 769px) {
 
+  .overviewinfo{
+    height: 150px;
+
+   }
+
 
   .skillstitle{
  
@@ -460,6 +464,7 @@ justify-content: space-between;
     flex-direction: column;
     width: 100%;
     justify-content: space-around;
+    align-items: center;
   
   }
   .overview{
