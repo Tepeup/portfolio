@@ -1,7 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
-import Overview from "../components/Overview";
+import Image from "next/image";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
@@ -18,9 +17,22 @@ export default function Home() {
         />
       </Head>
 
-      <Header link="overview" />
-
-      <Overview />
+      <Header />
+      <div className={styles.resume}>
+        <img
+          src="/resumeone.png"
+          alt="Picture of the author"
+          width={500}
+          height={500}
+        />
+        <img
+          src="/resumetwo.png"
+          alt="Picture of the author"
+          layout="responsive"
+          width={500}
+          height={500}
+        />
+      </div>
 
       <Footer />
     </div>
