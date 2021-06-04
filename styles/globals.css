@@ -53,6 +53,10 @@ object{
   .glitch {
     font-size: 2rem;
   }
+  .container{
+  
+ height: 125px;
+    }
 }
 
 .glitch::before,
