@@ -19,13 +19,8 @@ export default function Home() {
 
       <Header />
       <div className={styles.resume}>
-        <img src="/resumeone.png" alt="Picture of the author" width={500} />
-        <img
-          src="/resumetwo.png"
-          alt="Picture of the author"
-          layout="responsive"
-          width={500}
-        />
+        <img src="/resumeone.png" alt="Resume Page One" width={500} />
+        <img src="/resumetwo.png" alt="Resume Page Two" width={500} />
       </div>
 
       <Footer />
