@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Tepeu Potter Projects</title>
+        <title>Proejcts | Tepeu Potter</title>
         <meta name="description" content="Projects" />
         <meta name="author" content="Tepeu Potter"></meta>
         <link rel="icon" href="/favicon.ico" />

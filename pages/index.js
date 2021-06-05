@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Tepeu Potter Overview</title>
+        <title>Overview | Tepeu Potter</title>
         <meta name="description" content="Overview" />
         <meta name="author" content="Tepeu Potter"></meta>
         <link rel="icon" href="/favicon.ico" />
