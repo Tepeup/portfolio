@@ -18,13 +18,13 @@ export default function Overview() {
   return (
     <div className={styles.overview}>
       <div className={styles.whitebar}>
-        <div className={styles.overviewinfo}>
+        <div className={`${styles.overviewinfo}`}>
           <div className="container">
             <div className="glitch" data-text="Tepeu Zipacna Potter">
               Tepeu Zipacna Potter
             </div>
           </div>
-          <div>
+          <div className="animate__animated animate__fadeInDown">
             <Link href="/projects">
               <button className={styles.button}>Projects</button>
             </Link>
@@ -69,7 +69,7 @@ export default function Overview() {
               return (
                 <ul key={Math.random()}>
                   <div className={styles.dot}></div>
-                  <p className={styles.skillset}>{skill}</p>
+                  <p className={`${styles.skillset}`}>{skill}</p>
                 </ul>
               );
             })}

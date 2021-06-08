@@ -17,7 +17,11 @@ export default function Card(props) {
           </div>
 
           <a href={`${props.href}`}>
-            <button className={styles.button}>Visit</button>
+            <button
+              className={`${styles.button} animate__animated animate__fadeInDown`}
+            >
+              Visit
+            </button>
           </a>
         </div>
         <div className={styles.cardmiddle}>
@@ -38,7 +42,9 @@ export default function Card(props) {
             <p>{`${props.gitname}`}</p>
           </div>
 
-          <button className={`${styles.button} ${styles.secondary}`}>
+          <button
+            className={`${styles.button} ${styles.secondary}  animate__animated animate__fadeInDown`}
+          >
             Code
           </button>
         </div>{" "}
