@@ -21,6 +21,17 @@ export default function Home() {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <meta name="twitter:title" content="Portfolio | Tepeu Potter" />
+        <meta
+          name="twitter:description"
+          content="Tepeu Potter's web develeoper portfolio website."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.tepeupotter.com/twitterpreview.png"
+        />
       </Head>
 
       <Header link="overview" />
