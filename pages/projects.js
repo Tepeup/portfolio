@@ -10,20 +10,6 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 export default function Home() {
-  const pageDirect = () => {
-    switch (page) {
-      case "overview":
-        return <Overview />;
-        break;
-      case "projects":
-        return <Projects />;
-        break;
-      case "contact":
-        return <Contact />;
-        break;
-    }
-  };
-
   return (
     <div className={styles.container}>
       <Head>

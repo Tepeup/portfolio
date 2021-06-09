@@ -22,7 +22,7 @@ export default function Projects() {
     },
     {
       title: "Stock Portfolio Social Media",
-      href: "http://www.portfoliorater.com/",
+      href: "http://www.portfoliorater.com/new",
       alt: "Portfolio Rater App",
       image: "/portfoliorater.png",
       description: [
