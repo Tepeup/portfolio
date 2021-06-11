@@ -1,11 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
-import { useState } from "react";
 import Projects from "../components/Projects";
-import Overview from "../components/Overview";
-import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
