@@ -17,7 +17,21 @@ export default function Projects() {
       ],
       gitname: "Tepeup/Sunnyside-Agency",
       gitlink: "https://github.com/Tepeup/Sunnyside-Agency",
-      website: "sunnyside-agency-nu.vercel.app/",
+      website: "sunnyside-agency.vercel.app",
+    },
+    {
+      title: "Portfolio Website",
+      href: "https://tepeupotter.com/",
+      alt: "Portfolio Website",
+      image: "/portfolio.png",
+      description: [
+        "Meta: My portfolio website written in react using Next.js.",
+        "Responsive layout with component heavy architecture.",
+        "Button animations done using animate.css.",
+      ],
+      gitname: "Tepeup/portfolio",
+      gitlink: "https://github.com/Tepeup/portfolio",
+      website: "www.tepeupotter.com",
     },
     {
       title: "Best Picture Nominator",
@@ -31,7 +45,7 @@ export default function Projects() {
       ],
       gitname: "Tepeup/The-Shoppies",
       gitlink: "https://github.com/Tepeup/The-Shoppies",
-      website: "the-shoppies-beryl.vercel.app",
+      website: "the-shoppies.vercel.app",
     },
   ];
 

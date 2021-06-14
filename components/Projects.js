@@ -61,7 +61,7 @@ export default function Projects() {
         "Uses coingecko API for coin information including icon, name, and symbol.",
         "Uses ReactSortable to implement a drag and drop feature for rank sorting.",
         "Global Rankings page also serves as redirects to coingecko for more coin specific information.",
-        "React, Node.js, Next.js, Firebase, Vercel",
+        "React, Node.js, Next.js, Firebase, Vercel ,Material-UI",
       ],
       gitname: "Tepeup/Crypto-Rank",
       gitlink: "https://github.com/Tepeup/Crypto-Rank",
