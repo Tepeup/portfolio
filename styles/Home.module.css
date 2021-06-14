@@ -425,7 +425,18 @@ justify-content: space-between;
     height: 150px;
 
    }
-
+   .footerlink{
+    display: flex;
+    align-items: center;
+    overflow:hidden;
+    
+   
+  }
+  .footerlink p {
+    overflow:hidden;
+    text-overflow: ellipsis;
+    max-width:150px ;
+  }
 
   .skillstitle{
  

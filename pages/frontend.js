@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Projects from "../components/Projects";
+import Frontend from "../components/Frontend";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Fullstack Projects | Tepeu Potter</title>
-        <meta name="description" content="Fullstack Projects" />
+        <title>Frontend Porjects | Tepeu Potter</title>
+        <meta name="description" content="Frontend Projects" />
         <meta name="author" content="Tepeu Potter"></meta>
         <link rel="icon" href="/favicon.ico" />
         <link
@@ -21,9 +21,8 @@ export default function Home() {
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
       </Head>
-      <Header link="projects" />
-      <Projects />
-
+      <Header link="frontend" />
+      <Frontend />
       <Footer />
     </div>
   );

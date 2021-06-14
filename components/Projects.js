@@ -67,20 +67,6 @@ export default function Projects() {
       gitlink: "https://github.com/Tepeup/Crypto-Rank",
       website: "www.yourcryptorank.com",
     },
-    {
-      title: "Best Picture Nominator",
-      href: "https://the-shoppies-beryl.vercel.app/",
-      alt: "Best Picture Nominator",
-      image: "/theshoppies.png",
-      description: [
-        "Shopify developer challenge submission for the frontend of a movie award nomination website.",
-        "Uses OMDb API for movie information.",
-        "UI inspired by HBO Max.",
-      ],
-      gitname: "Tepeup/The-Shoppies",
-      gitlink: "https://github.com/Tepeup/The-Shoppies",
-      website: "the-shoppies-beryl.vercel.app",
-    },
   ];
 
   return (

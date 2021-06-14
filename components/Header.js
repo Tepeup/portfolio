@@ -16,7 +16,12 @@ export default function Header(props) {
         </Link>
         <Link href="/projects">
           <a className={props.link === "projects" ? "active" : null}>
-            Projects
+            Fullstack
+          </a>
+        </Link>
+        <Link href="/frontend">
+          <a className={props.link === "frontend" ? "active" : null}>
+            Frontend
           </a>
         </Link>
       </nav>
