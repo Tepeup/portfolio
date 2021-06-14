@@ -417,6 +417,11 @@ justify-content: space-between;
  border-bottom: 1px solid #eaeaea;
 
 }
+#frontend .cardmiddle{
+
+  height: 150px;
+
+}
 
 
 @media (max-width: 769px) {
@@ -488,6 +493,13 @@ justify-content: space-between;
   .cardmiddle{
     height: auto;
   }
+
+  #frontend .cardmiddle{
+
+    height: auto;
+  
+  }
+  
   .titlecard{
     display: flex;
     flex-direction: column;

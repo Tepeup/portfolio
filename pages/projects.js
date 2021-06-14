@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Fullstack Projects | Tepeu Potter</title>
+        <title>Full Stack Projects | Tepeu Potter</title>
         <meta name="description" content="Fullstack Projects" />
         <meta name="author" content="Tepeu Potter"></meta>
         <link rel="icon" href="/favicon.ico" />

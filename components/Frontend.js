@@ -51,7 +51,7 @@ export default function Projects() {
 
   return (
     <main className={styles.main}>
-      <div className={styles.grid}>
+      <div className={styles.grid} id={styles.frontend}>
         {projectsInformation.map((project) => {
           return (
             <Card
