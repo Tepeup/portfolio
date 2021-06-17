@@ -16,7 +16,7 @@ export default function Projects() {
         "Uses Finnhub's API to get market capitilization, industry sector, and stock price information.",
         "React, Node.js, MongoDb, Express, Firebase, Heroku, Sass",
       ],
-      gitname: "Tepeup/stockportfolio",
+      gitname: "Tepeup/Stockportfolio",
       gitlink: "https://github.com/Tepeup/stockportfolio",
       website: "www.portfoliorater.com",
     },
