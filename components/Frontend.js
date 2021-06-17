@@ -5,7 +5,7 @@ import Card from "./Card";
 export default function Projects() {
   const projectsInformation = [
     {
-      title: "Easybank",
+      title: "Easybank Corp",
       href: "https://easybank-hazel.vercel.app/",
       alt: "Easybank",
       image: "/easybank.png",
@@ -19,7 +19,7 @@ export default function Projects() {
       website: "easybank.vercel.app",
     },
     {
-      title: "Sunnyside Agenct",
+      title: "Sunnyside Agency",
       href: "https://sunnyside-agency-nu.vercel.app/",
       alt: "Sunnyside Agency",
       image: "/sunnyside.png",
