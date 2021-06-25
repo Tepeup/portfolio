@@ -9,7 +9,7 @@ export default function Overview() {
     "CSS / Sass",
     "MongoDb / Firebase",
     "Shopify Liquid",
-    "Express.js / Koa",
+    "Express / REST API",
     "Visual Basic for Applications",
     "Photoshop",
     "Mobile First Developement",

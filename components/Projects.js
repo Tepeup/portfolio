@@ -6,15 +6,15 @@ export default function Projects() {
   const projectsInformation = [
     {
       title: "Stock Portfolio Social Media",
-      href: "http://www.portfoliorater.com",
+      href: "https://www.portfoliorater.com",
       alt: "Portfolio Rater App",
       image: "/portfoliorater.png",
       description: [
         "Social media website to share your stock portfolios with real concurrent users.",
+        "Built a RESTful API using Node.js and Express to handle users, portfolios, and posts.",
         "Browse, comment, like, and rate the latest portfolio submissions.",
         "Sign in to get access to your dashboard which shows yours and your favorited portfolios.",
-        "Uses Finnhub's API to get market capitilization, industry sector, and stock price information.",
-        "React, Node.js, MongoDb, Express, Firebase, Heroku, Sass",
+        "React, Node.js, MongoDb, Express, Firebase, Heroku, Sass, FinnHub API",
       ],
       gitname: "Tepeup/Stockportfolio",
       gitlink: "https://github.com/Tepeup/stockportfolio",
