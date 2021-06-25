@@ -16,8 +16,8 @@ export default function Projects() {
         "Sign in to get access to your dashboard which shows yours and your favorited portfolios.",
         "React, Node.js, MongoDb, Express, Firebase, Heroku, Sass, FinnHub API",
       ],
-      gitname: "Tepeup/Stockportfolio",
-      gitlink: "https://github.com/Tepeup/stockportfolio",
+      gitname: "Tepeup/Portfoliorater",
+      gitlink: "https://github.com/Tepeup/portfoliorater",
       website: "www.portfoliorater.com",
     },
     {
