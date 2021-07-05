@@ -14,7 +14,6 @@ export default function Overview() {
     "Photoshop",
     "Mobile First Developement",
   ];
-
   return (
     <div className={styles.overview}>
       <div className={styles.whitebar}>
@@ -28,11 +27,11 @@ export default function Overview() {
             <Link href="/projects">
               <button className={styles.button}>Projects</button>
             </Link>
-            <Link href="/resume">
+            <a href="/Resume.pdf" target="_blank" download>
               <button className={`${styles.button} ${styles.secondary}`}>
                 Resume
               </button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -43,8 +42,9 @@ export default function Overview() {
               <div>
                 <p>Full Stack Javascript Developer</p>
                 <p className={styles.aboutdesc}>
-                  Passionate about coding and all things React, strong focus on
-                  user experiences and intuitive interfaces
+                  Passionate about coding and all things Web Development, strong
+                  focus on user experiences and building mobile friendly,
+                  intuitive interfaces.
                 </p>
                 <p className={styles.aboutdesc}>Based in Austin, TX</p>
               </div>
