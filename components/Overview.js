@@ -40,11 +40,11 @@ export default function Overview() {
           <div className={styles.cardinfo}>
             <div className={styles.cardtop}>
               <div>
-                <p>Full Stack Javascript Developer</p>
+                <p>Web Developer</p>
                 <p className={styles.aboutdesc}>
-                  Passionate about coding and all things Web Development, strong
-                  focus on user experiences and building mobile friendly,
-                  intuitive interfaces.
+                  Passionate about science and all things Web Development,
+                  strong focus on user experiences and building intuitive
+                  interfaces.
                 </p>
                 <p className={styles.aboutdesc}>Based in Austin, TX</p>
               </div>
